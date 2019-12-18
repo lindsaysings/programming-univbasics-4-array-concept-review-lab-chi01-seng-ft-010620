@@ -10,7 +10,7 @@ find_element_index(array, value_to_find)
 
 def find_max_value(array)
   array.sort 
-  array[-1] 
+  return array[-1] 
 end
 
 find_max_value(array)
