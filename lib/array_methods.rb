@@ -3,7 +3,7 @@ def find_element_index(array, value_to_find)
   
 end
 
-find_element_index(array, value_to_find)
+
 
 
 
@@ -13,7 +13,7 @@ def find_max_value(array)
   return array[-1] 
 end
 
-find_max_value(array)
+
 
 def find_min_value(array)
   array.sort.reverse
@@ -21,15 +21,4 @@ def find_min_value(array)
 end
 
 
-a = 1 
 
-while a <= 1000 do
-  puts a 
-  a += 1 
-end 
-
-
-
-
-
-array = [1,2,3,4]
