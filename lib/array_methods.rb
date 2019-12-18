@@ -16,7 +16,8 @@ end
 find_max_value(array)
 
 def find_min_value(array)
-  # Add your solution here
+  array.sort.reverse
+  return array[-1]
 end
 
 
