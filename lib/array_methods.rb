@@ -1,10 +1,5 @@
 def find_element_index(array, value_to_find)
-  array.each_with_index do |number, index|
-    if value_to_find == number
-      return index 
-    end
-  end
-nil
+  array.include?(value_to_find)
 end
 
 
